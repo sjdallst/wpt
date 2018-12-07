@@ -354,7 +354,7 @@ def sub(request, response, escape_type="html"):
       sha224, sha256, sha384, and sha512. For example:
 
         {{file_hash(md5, dom/interfaces.html)}}
-    path(filepath)
+    fs_path(filepath)
       The absolute path to a file inside the wpt document root
 
     So for example in a setup running on localhost with a www
